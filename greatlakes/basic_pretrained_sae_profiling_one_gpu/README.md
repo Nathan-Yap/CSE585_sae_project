@@ -1,0 +1,1 @@
+This experiment was modified from the sae_lens package. This tutorial gives details on how to use a pretrained SAE with this package, https://github.com/jbloomAus/SAELens/blob/main/tutorials/basic_loading_and_analysing.ipynb. Added basic pytorch profiling.
