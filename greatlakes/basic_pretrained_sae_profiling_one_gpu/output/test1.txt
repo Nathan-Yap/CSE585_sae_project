@@ -1,0 +1,77 @@
+Loaded pretrained model gpt2-small into HookedTransformer
+LOADED MODELS
+HookedTransformer(
+  (embed): Embed()
+  (hook_embed): HookPoint()
+  (pos_embed): PosEmbed()
+  (hook_pos_embed): HookPoint()
+  (blocks): ModuleList(
+    (0-11): 12 x TransformerBlock(
+      (ln1): LayerNormPre(
+        (hook_scale): HookPoint()
+        (hook_normalized): HookPoint()
+      )
+      (ln2): LayerNormPre(
+        (hook_scale): HookPoint()
+        (hook_normalized): HookPoint()
+      )
+      (attn): Attention(
+        (hook_k): HookPoint()
+        (hook_q): HookPoint()
+        (hook_v): HookPoint()
+        (hook_z): HookPoint()
+        (hook_attn_scores): HookPoint()
+        (hook_pattern): HookPoint()
+        (hook_result): HookPoint()
+      )
+      (mlp): MLP(
+        (hook_pre): HookPoint()
+        (hook_post): HookPoint()
+      )
+      (hook_attn_in): HookPoint()
+      (hook_q_input): HookPoint()
+      (hook_k_input): HookPoint()
+      (hook_v_input): HookPoint()
+      (hook_mlp_in): HookPoint()
+      (hook_attn_out): HookPoint()
+      (hook_mlp_out): HookPoint()
+      (hook_resid_pre): HookPoint()
+      (hook_resid_mid): HookPoint()
+      (hook_resid_post): HookPoint()
+    )
+  )
+  (ln_final): LayerNormPre(
+    (hook_scale): HookPoint()
+    (hook_normalized): HookPoint()
+  )
+  (unembed): Unembed()
+)
+TOKENIZED DATASETS
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+                                                   Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg     Self CUDA   Self CUDA %    CUDA total  CUDA time avg       CPU Mem  Self CPU Mem      CUDA Mem  Self CUDA Mem    # of Calls   Total FLOPs
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+                                      SAE_encode_decode         0.00%       0.000us         0.00%       0.000us       0.000us      41.137ms       154.46%      41.137ms      41.137ms           0 B           0 B           0 B           0 B             1            --
+                                      SAE_encode_decode         2.33%     978.748us        71.99%      30.224ms      30.224ms       0.000us         0.00%      27.609ms      27.609ms           0 B           0 B     396.00 MB    -792.00 MB             1            --
+                                           aten::matmul         0.25%     106.437us        66.59%      27.958ms      13.979ms       0.000us         0.00%      24.600ms      12.300ms           0 B           0 B     396.00 MB           0 B             2            --
+                                               aten::mm        65.60%      27.544ms        66.25%      27.817ms      13.909ms      24.600ms        92.37%      24.600ms      12.300ms           0 B           0 B     396.00 MB     396.00 MB             2  309237645312.000
+                                  volta_sgemm_128x64_nn         0.00%       0.000us         0.00%       0.000us       0.000us      12.324ms        46.28%      12.324ms      12.324ms           0 B           0 B           0 B           0 B             1            --
+                                 volta_sgemm_128x128_nn         0.00%       0.000us         0.00%       0.000us       0.000us      12.274ms        46.09%      12.274ms      12.274ms           0 B           0 B           0 B           0 B             1            --
+                                             aten::relu         0.17%      72.488us         0.58%     243.534us     243.534us       0.000us         0.00%       1.945ms       1.945ms           0 B           0 B     384.00 MB           0 B             1            --
+                                        aten::clamp_min         0.21%      88.993us         0.41%     171.046us     171.046us     972.315us         3.65%       1.945ms       1.945ms           0 B           0 B     384.00 MB     384.00 MB             1            --
+void at::native::elementwise_kernel<128, 2, at::nati...         0.00%       0.000us         0.00%       0.000us       0.000us       1.057ms         3.97%       1.057ms     352.435us           0 B           0 B           0 B           0 B             3            --
+                                              aten::add         0.16%      67.714us         0.75%     316.270us     158.135us       1.020ms         3.83%       1.020ms     510.013us           0 B           0 B     396.00 MB     396.00 MB             2  103809024.000
+                                       cudaLaunchKernel         0.37%     154.272us         0.49%     206.142us      29.449us       0.000us         0.00%     972.315us     138.902us           0 B           0 B           0 B           0 B             7            --
+                                  Lazy Function Loading         0.12%      51.870us         0.12%      51.870us      51.870us     972.315us         3.65%     972.315us     972.315us           0 B           0 B           0 B           0 B             1            --
+void at::native::vectorized_elementwise_kernel<4, at...         0.00%       0.000us         0.00%       0.000us       0.000us     972.315us         3.65%     972.315us     972.315us           0 B           0 B           0 B           0 B             1            --
+                                              aten::sub         0.06%      25.057us         0.09%      36.720us      36.720us      37.279us         0.14%      37.279us      37.279us           0 B           0 B      12.00 MB      12.00 MB             1            --
+                                              aten::mul         0.17%      70.599us         1.62%     681.935us     681.935us       3.520us         0.01%       7.040us       7.040us           0 B           0 B       3.00 KB       3.00 KB             1       768.000
+                                Activity Buffer Request         1.35%     564.720us         1.35%     564.720us     564.720us       3.520us         0.01%       3.520us       3.520us           0 B           0 B           0 B           0 B             1            --
+void at::native::vectorized_elementwise_kernel<4, at...         0.00%       0.000us         0.00%       0.000us       0.000us       3.520us         0.01%       3.520us       3.520us           0 B           0 B           0 B           0 B             1            --
+                                        Memset (Device)         0.00%       0.000us         0.00%       0.000us       0.000us       1.184us         0.00%       1.184us       1.184us           0 B           0 B           0 B           0 B             1            --
+                                               aten::to         0.02%       8.584us         0.02%       8.584us       8.584us       0.000us         0.00%       0.000us       0.000us           0 B           0 B           0 B           0 B             1            --
+                                          aten::reshape         0.02%       7.661us         0.05%      21.241us      10.621us       0.000us         0.00%       0.000us       0.000us           0 B           0 B           0 B           0 B             2            --
+-------------------------------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------  ------------
+Self CPU time total: 41.986ms
+Self CUDA time total: 26.633ms
+
+done!
