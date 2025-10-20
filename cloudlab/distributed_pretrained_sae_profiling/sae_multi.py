@@ -54,12 +54,20 @@ dataset = load_dataset(
     streaming=False,
 )
 
+# Get tokenizer and SAE config from the appropriate objects
+if torch.cuda.is_available() and num_gpus > 1:
+    tokenizer = model.module.tokenizer
+    sae_cfg = sae.module.cfg
+else:
+    tokenizer = model.tokenizer
+    sae_cfg = sae.cfg
+
 token_dataset = tokenize_and_concatenate(
     dataset=dataset,  # type: ignore
-    tokenizer=model.tokenizer,  # type: ignore
+    tokenizer=tokenizer,  # type: ignore
     streaming=True,
-    max_length=sae.cfg.metadata.context_size,
-    add_bos_token=sae.cfg.metadata.prepend_bos,
+    max_length=sae_cfg.metadata.context_size,
+    add_bos_token=sae_cfg.metadata.prepend_bos,
 )
 
 print("TOKENIZED DATASET")
