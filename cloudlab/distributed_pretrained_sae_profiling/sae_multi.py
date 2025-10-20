@@ -122,8 +122,9 @@ with torch.no_grad():
             # Get the hook name from the appropriate SAE object
             if torch.cuda.is_available() and num_gpus > 1:
                 hook_name = sae.module.cfg.metadata.hook_name
-                feature_acts = sae.encode(cache[hook_name])
-                sae_out = sae.decode(feature_acts)
+                # For DataParallel, we need to access the module's methods
+                feature_acts = sae.module.encode(cache[hook_name])
+                sae_out = sae.module.decode(feature_acts)
             else:
                 feature_acts = sae.encode(cache[sae.cfg.metadata.hook_name])
                 sae_out = sae.decode(feature_acts)
