@@ -8,6 +8,7 @@ pip install -r greatlakes/basic_pretrained_sae_profiling_one_gpu/requirements.tx
 pip uninstall torch torchvision torchaudio
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
+# nvidia-smi
 sudo apt update
 sudo apt install nvidia-driver-470 nvidia-utils-470
 sudo reboot
