@@ -74,18 +74,41 @@ print("TOKENIZED DATASET")
 
 sae.eval()  # ensure deterministic / no grads
 
-# Increase batch size for multi-GPU setups
-batch_size = 32 * num_gpus if torch.cuda.is_available() and num_gpus > 1 else 32
+# Use smaller batch size to avoid OOM errors
+# Start with a conservative batch size and increase if memory allows
+if torch.cuda.is_available() and num_gpus > 1:
+    batch_size = 16  # Much smaller batch size for multi-GPU
+else:
+    batch_size = 32
+
 batch_tokens = token_dataset[:batch_size]["tokens"]
 print(f"Using batch size: {batch_size}")
+print(f"Token shape: {batch_tokens.shape}")
 
 with torch.no_grad():
+    # Clear GPU cache before running
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        print(f"GPU memory before model run: {torch.cuda.memory_allocated()/1e9:.2f} GB")
+    
     # Run model to get cache (outside profiling)
-    if torch.cuda.is_available() and num_gpus > 1:
-        # For DataParallel, we need to access the module attribute
-        _, cache = model.module.run_with_cache(batch_tokens, prepend_bos=True)
-    else:
-        _, cache = model.run_with_cache(batch_tokens, prepend_bos=True)
+    try:
+        if torch.cuda.is_available() and num_gpus > 1:
+            # For DataParallel, we need to access the module attribute
+            _, cache = model.module.run_with_cache(batch_tokens, prepend_bos=True)
+        else:
+            _, cache = model.run_with_cache(batch_tokens, prepend_bos=True)
+        
+        if torch.cuda.is_available():
+            print(f"GPU memory after model run: {torch.cuda.memory_allocated()/1e9:.2f} GB")
+            
+    except torch.cuda.OutOfMemoryError as e:
+        print(f"Out of memory error: {e}")
+        print("Try reducing batch size further or using CPU")
+        # Clear cache and try with even smaller batch
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+        raise e
 
     # Profile only SAE encode/decode
     with profile(
@@ -107,6 +130,9 @@ with torch.no_grad():
 
     # Optional: delete cache to save memory
     del cache
+    if torch.cuda.is_available():
+        torch.cuda.empty_cache()
+        print(f"GPU memory after cleanup: {torch.cuda.memory_allocated()/1e9:.2f} GB")
 
 # Print a table of top ops sorted by CUDA time
 print(prof.key_averages().table(sort_by="cuda_time_total", row_limit=20))
