@@ -1,0 +1,132 @@
+Using device: cuda
+Loaded SAE
+StandardSAE(
+  (activation_fn): ReLU()
+  (hook_sae_input): HookPoint()
+  (hook_sae_acts_pre): HookPoint()
+  (hook_sae_acts_post): HookPoint()
+  (hook_sae_output): HookPoint()
+  (hook_sae_recons): HookPoint()
+  (hook_sae_error): HookPoint()
+)
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 15099488
+Sparsity: 0.14999993642171225
+Decoder time (cuSPARSE): 1878.334 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 14596160
+Sparsity: 0.14499982198079428
+Decoder time (cuSPARSE): 161.439 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 14092832
+Sparsity: 0.1399997075398763
+Decoder time (cuSPARSE): 154.605 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 13589536
+Sparsity: 0.13499991099039713
+Decoder time (cuSPARSE): 149.578 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 13086208
+Sparsity: 0.12999979654947916
+Decoder time (cuSPARSE): 144.647 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 12582912
+Sparsity: 0.125
+Decoder time (cuSPARSE): 139.544 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 12079584
+Sparsity: 0.11999988555908203
+Decoder time (cuSPARSE): 137.206 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 11576256
+Sparsity: 0.11499977111816406
+Decoder time (cuSPARSE): 129.763 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 11072960
+Sparsity: 0.10999997456868489
+Decoder time (cuSPARSE): 125.285 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 10569632
+Sparsity: 0.10499986012776692
+Decoder time (cuSPARSE): 120.303 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 10066304
+Sparsity: 0.09999974568684895
+Decoder time (cuSPARSE): 114.604 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 9563008
+Sparsity: 0.0949999491373698
+Decoder time (cuSPARSE): 110.126 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 9059680
+Sparsity: 0.08999983469645183
+Decoder time (cuSPARSE): 104.941 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 8556352
+Sparsity: 0.08499972025553386
+Decoder time (cuSPARSE): 100.599 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 8053056
+Sparsity: 0.07999992370605469
+Decoder time (cuSPARSE): 98.420 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 7549728
+Sparsity: 0.07499980926513672
+Decoder time (cuSPARSE): 93.118 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 7046400
+Sparsity: 0.06999969482421875
+Decoder time (cuSPARSE): 85.788 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 6543104
+Sparsity: 0.06499989827473958
+Decoder time (cuSPARSE): 81.374 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 6039776
+Sparsity: 0.05999978383382162
+Decoder time (cuSPARSE): 76.496 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 5536480
+Sparsity: 0.054999987284342446
+Decoder time (cuSPARSE): 71.957 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 5033152
+Sparsity: 0.04999987284342448
+Decoder time (cuSPARSE): 66.391 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 4529824
+Sparsity: 0.04499975840250651
+Decoder time (cuSPARSE): 61.648 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 4026528
+Sparsity: 0.039999961853027344
+Decoder time (cuSPARSE): 56.664 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 3523200
+Sparsity: 0.034999847412109375
+Decoder time (cuSPARSE): 52.022 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 3019872
+Sparsity: 0.029999732971191406
+Decoder time (cuSPARSE): 47.438 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 2516576
+Sparsity: 0.02499993642171224
+Decoder time (cuSPARSE): 42.757 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 2013248
+Sparsity: 0.01999982198079427
+Decoder time (cuSPARSE): 37.935 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 1509920
+Sparsity: 0.014999707539876303
+Decoder time (cuSPARSE): 33.581 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 1006624
+Sparsity: 0.009999910990397135
+Decoder time (cuSPARSE): 28.322 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 503296
+Sparsity: 0.004999796549479167
+Decoder time (cuSPARSE): 23.249 ms
+done!

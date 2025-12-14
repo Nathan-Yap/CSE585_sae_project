@@ -1,0 +1,93 @@
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/sae_lens/saes/sae.py:249: UserWarning: 
+This SAE has non-empty model_from_pretrained_kwargs. 
+For optimal performance, load the model like so:
+model = HookedSAETransformer.from_pretrained_no_processing(..., **cfg.model_from_pretrained_kwargs)
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/nyap/SAE_testing/bspmm_kernel/triton_kernel_encoder_decoder_search_params_temp.py", line 50, in <module>
+    features, enc_time = measure(sae.encode, residual_stream)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nyap/SAE_testing/bspmm_kernel/utils.py", line 75, in measure
+    start.record()
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/streams.py", line 190, in record
+    stream = torch.cuda.current_stream()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1108, in current_stream
+    _lazy_init()
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/__init__.py", line 410, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/sae_lens/saes/sae.py:249: UserWarning: 
+This SAE has non-empty model_from_pretrained_kwargs. 
+For optimal performance, load the model like so:
+model = HookedSAETransformer.from_pretrained_no_processing(..., **cfg.model_from_pretrained_kwargs)
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/nyap/SAE_testing/bspmm_kernel/triton_kernel_encoder_decoder_search_params_temp.py", line 50, in <module>
+    features, enc_time = measure(sae.encode, residual_stream)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nyap/SAE_testing/bspmm_kernel/utils.py", line 75, in measure
+    start.record()
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/streams.py", line 190, in record
+    stream = torch.cuda.current_stream()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1108, in current_stream
+    _lazy_init()
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/__init__.py", line 410, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/sae_lens/saes/sae.py:249: UserWarning: 
+This SAE has non-empty model_from_pretrained_kwargs. 
+For optimal performance, load the model like so:
+model = HookedSAETransformer.from_pretrained_no_processing(..., **cfg.model_from_pretrained_kwargs)
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/nyap/SAE_testing/bspmm_kernel/triton_kernel_encoder_decoder_search_params_temp.py", line 50, in <module>
+    features, enc_time = measure(sae.encode, residual_stream)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nyap/SAE_testing/bspmm_kernel/utils.py", line 75, in measure
+    start.record()
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/streams.py", line 190, in record
+    stream = torch.cuda.current_stream()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1108, in current_stream
+    _lazy_init()
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/__init__.py", line 410, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/sae_lens/saes/sae.py:249: UserWarning: 
+This SAE has non-empty model_from_pretrained_kwargs. 
+For optimal performance, load the model like so:
+model = HookedSAETransformer.from_pretrained_no_processing(..., **cfg.model_from_pretrained_kwargs)
+  warnings.warn(
+Traceback (most recent call last):
+  File "/home/nyap/SAE_testing/bspmm_kernel/triton_kernel_encoder_decoder_search_params_temp.py", line 50, in <module>
+    features, enc_time = measure(sae.encode, residual_stream)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/nyap/SAE_testing/bspmm_kernel/utils.py", line 75, in measure
+    start.record()
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/streams.py", line 190, in record
+    stream = torch.cuda.current_stream()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/__init__.py", line 1108, in current_stream
+    _lazy_init()
+  File "/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/torch/cuda/__init__.py", line 410, in _lazy_init
+    torch._C._cuda_init()
+RuntimeError: No CUDA GPUs are available
+slurmstepd: error: *** JOB 37986240 ON gl1527 CANCELLED AT 2025-12-12T02:21:24 ***

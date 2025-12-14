@@ -1,0 +1,734 @@
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'repr' attribute with value False was provided to the `Field()` function, which has no effect in the context it was used. 'repr' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/gpfs/accounts/cse585f25_class_root/cse585f25_class/nyap/env/lib/python3.12/site-packages/pydantic/_internal/_generate_schema.py:2249: UnsupportedFieldAttributeWarning: The 'frozen' attribute with value True was provided to the `Field()` function, which has no effect in the context it was used. 'frozen' is field-specific metadata, and can only be attached to a model field using `Annotated` metadata or by assignment. This may have happened because an `Annotated` type alias using the `type` statement was used, or if the `Field()` function was attached to a single member of a union type.
+  warnings.warn(
+/home/nyap/SAE_testing/full_training_run/default_train.py:79: DeprecationWarning: Use LanguageModelSAETrainingRunner instead
+  sparse_autoencoder = SAETrainingRunner(cfg).run()
+`torch_dtype` is deprecated! Use `dtype` instead!
+`trust_remote_code` is not supported anymore.
+Please check that the Hugging Face dataset 'apollo-research/roneneldan-TinyStories-tokenizer-gpt2' isn't based on a loading script and remove `trust_remote_code`.
+If the dataset is based on a loading script, please ask the dataset author to remove it and convert it to a standard format like Parquet.
+Training SAE:   0%|          | 0/1228800 [00:00<?, ?it/s]
+Estimating norm scaling factor:   0%|          | 0/1000 [00:00<?, ?it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   3%|▎         | 1/32 [00:02<01:32,  2.99s/it][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:03<00:40,  1.34s/it][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:03<00:15,  1.85it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:03<00:08,  3.12it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:03<00:05,  4.31it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:03<00:04,  5.12it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:04<00:02,  6.67it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:04<00:02,  8.05it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:04<00:01,  8.60it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:04<00:01,  8.19it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:04<00:01,  9.43it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:05<00:01,  9.50it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:05<00:00,  9.10it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:05<00:00, 10.69it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:05<00:00, 12.18it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:05<00:00, 13.48it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:05<00:00, 14.56it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:   0%|          | 1/1000 [00:05<1:38:51,  5.94s/it][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 18.11it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 18.01it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.97it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.94it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.92it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.91it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.91it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.91it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.91it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.91it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.89it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.91it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.92it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.91it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.90it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.81it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:   3%|▎         | 33/1000 [00:07<02:56,  5.48it/s] [A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 18.14it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 18.00it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.95it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.93it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.91it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.90it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.90it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.90it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.90it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.90it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.91it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.90it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.90it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.90it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.90it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.88it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:   8%|▊         | 81/1000 [00:09<01:17, 11.83it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 18.14it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.98it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.91it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.88it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.88it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.87it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.87it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.89it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.89it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.89it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.90it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.90it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.88it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.85it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.80it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.80it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  14%|█▎        | 137/1000 [00:11<00:50, 17.17it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:02, 14.10it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 16.06it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 16.79it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.16it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.38it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.52it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.59it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.64it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.68it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.72it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.74it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.74it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.79it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.78it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  20%|█▉        | 197/1000 [00:13<00:36, 21.70it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 17.96it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.83it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.82it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.80it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.80it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.78it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.78it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.78it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  26%|██▌       | 259/1000 [00:15<00:29, 25.32it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 18.00it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.87it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.67it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.70it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.72it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.74it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.77it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.77it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.78it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  32%|███▏      | 322/1000 [00:17<00:25, 26.76it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 17.24it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.55it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.65it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.66it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.70it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.73it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.74it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.74it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.75it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.75it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.74it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.77it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  38%|███▊      | 385/1000 [00:19<00:21, 28.93it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 18.00it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.88it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.82it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.81it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.80it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.80it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.78it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.77it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.77it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  45%|████▍     | 449/1000 [00:21<00:17, 30.68it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 17.98it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.85it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.83it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.80it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.70it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.71it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.74it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.75it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.74it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.74it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.75it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  51%|█████▏    | 513/1000 [00:22<00:15, 31.92it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 17.96it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.84it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.80it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.77it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.77it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.77it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.77it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.77it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  58%|█████▊    | 577/1000 [00:24<00:12, 32.81it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 17.98it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.84it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.77it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.78it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.78it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.78it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.77it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  64%|██████▍   | 641/1000 [00:26<00:10, 33.44it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 17.99it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.86it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.82it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.81it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.80it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.79it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.77it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  70%|███████   | 705/1000 [00:28<00:08, 33.88it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 17.99it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.87it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.81it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.78it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.78it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.78it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.77it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.40it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.49it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.58it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.65it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  77%|███████▋  | 769/1000 [00:30<00:06, 34.16it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 18.02it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.86it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.84it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.81it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.80it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.81it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.78it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.77it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.78it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  83%|████████▎ | 833/1000 [00:32<00:04, 34.39it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 17.98it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.87it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.81it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.80it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.78it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.78it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.79it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.79it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.78it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  90%|████████▉ | 897/1000 [00:33<00:02, 34.56it/s][A
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A[A
+
+Refilling buffer:   6%|▋         | 2/32 [00:00<00:01, 18.01it/s][A[A
+
+Refilling buffer:  12%|█▎        | 4/32 [00:00<00:01, 17.88it/s][A[A
+
+Refilling buffer:  19%|█▉        | 6/32 [00:00<00:01, 17.85it/s][A[A
+
+Refilling buffer:  25%|██▌       | 8/32 [00:00<00:01, 17.81it/s][A[A
+
+Refilling buffer:  31%|███▏      | 10/32 [00:00<00:01, 17.79it/s][A[A
+
+Refilling buffer:  38%|███▊      | 12/32 [00:00<00:01, 17.78it/s][A[A
+
+Refilling buffer:  44%|████▍     | 14/32 [00:00<00:01, 17.77it/s][A[A
+
+Refilling buffer:  50%|█████     | 16/32 [00:00<00:00, 17.77it/s][A[A
+
+Refilling buffer:  56%|█████▋    | 18/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  62%|██████▎   | 20/32 [00:01<00:00, 17.77it/s][A[A
+
+Refilling buffer:  69%|██████▉   | 22/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  75%|███████▌  | 24/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  81%|████████▏ | 26/32 [00:01<00:00, 17.78it/s][A[A
+
+Refilling buffer:  88%|████████▊ | 28/32 [00:01<00:00, 17.76it/s][A[A
+
+Refilling buffer:  94%|█████████▍| 30/32 [00:01<00:00, 17.73it/s][A[A
+
+Refilling buffer: 100%|██████████| 32/32 [00:01<00:00, 17.74it/s][A[A
+
+                                                                 [A[A
+Estimating norm scaling factor:  96%|█████████▌| 961/1000 [00:35<00:01, 34.67it/s][AEstimating norm scaling factor: 100%|██████████| 1000/1000 [00:35<00:00, 28.02it/s]
+
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A
+Refilling buffer:   3%|▎         | 1/32 [00:00<00:29,  1.06it/s][A
+Refilling buffer:   9%|▉         | 3/32 [00:01<00:08,  3.48it/s][A
+Refilling buffer:  16%|█▌        | 5/32 [00:01<00:04,  5.94it/s][A
+Refilling buffer:  22%|██▏       | 7/32 [00:01<00:03,  8.28it/s][A
+Refilling buffer:  28%|██▊       | 9/32 [00:01<00:02, 10.36it/s][A
+Refilling buffer:  34%|███▍      | 11/32 [00:01<00:01, 12.13it/s][A
+Refilling buffer:  41%|████      | 13/32 [00:01<00:01, 13.58it/s][A
+Refilling buffer:  47%|████▋     | 15/32 [00:01<00:01, 14.71it/s][A
+Refilling buffer:  53%|█████▎    | 17/32 [00:01<00:00, 15.57it/s][A
+Refilling buffer:  59%|█████▉    | 19/32 [00:01<00:00, 16.19it/s][A
+Refilling buffer:  66%|██████▌   | 21/32 [00:02<00:00, 16.66it/s][A
+Refilling buffer:  72%|███████▏  | 23/32 [00:02<00:00, 17.01it/s][A
+Refilling buffer:  78%|███████▊  | 25/32 [00:02<00:00, 17.25it/s][A
+Refilling buffer:  84%|████████▍ | 27/32 [00:02<00:00, 17.42it/s][A
+Refilling buffer:  91%|█████████ | 29/32 [00:02<00:00, 17.54it/s][A
+Refilling buffer:  97%|█████████▋| 31/32 [00:02<00:00, 17.63it/s][A
+                                                                 [A
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A
+Refilling buffer:   3%|▎         | 1/32 [00:00<00:29,  1.06it/s][A
+Refilling buffer:   9%|▉         | 3/32 [00:01<00:08,  3.50it/s][A
+Refilling buffer:  16%|█▌        | 5/32 [00:01<00:04,  5.97it/s][A
+Refilling buffer:  22%|██▏       | 7/32 [00:01<00:03,  8.30it/s][A
+Refilling buffer:  28%|██▊       | 9/32 [00:01<00:02, 10.39it/s][A
+Refilling buffer:  34%|███▍      | 11/32 [00:01<00:01, 12.17it/s][A
+Refilling buffer:  41%|████      | 13/32 [00:01<00:01, 13.61it/s][A
+Refilling buffer:  47%|████▋     | 15/32 [00:01<00:01, 14.72it/s][A
+Refilling buffer:  53%|█████▎    | 17/32 [00:01<00:00, 15.57it/s][A
+Refilling buffer:  59%|█████▉    | 19/32 [00:01<00:00, 16.21it/s][A
+Refilling buffer:  66%|██████▌   | 21/32 [00:02<00:00, 16.67it/s][A
+Refilling buffer:  72%|███████▏  | 23/32 [00:02<00:00, 16.99it/s][A
+Refilling buffer:  78%|███████▊  | 25/32 [00:02<00:00, 17.23it/s][A
+Refilling buffer:  84%|████████▍ | 27/32 [00:02<00:00, 17.40it/s][A
+Refilling buffer:  91%|█████████ | 29/32 [00:02<00:00, 17.52it/s][A
+Refilling buffer:  97%|█████████▋| 31/32 [00:02<00:00, 17.61it/s][A
+                                                                 [A100| mse_loss: 569.92822 | l1_loss: 152.67653:   0%|          | 0/1228800 [00:48<?, ?it/s]100| mse_loss: 569.92822 | l1_loss: 152.67653:  33%|███▎      | 409600/1228800 [00:48<01:36, 8449.02it/s]
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A
+Refilling buffer:   3%|▎         | 1/32 [00:00<00:29,  1.06it/s][A
+Refilling buffer:   9%|▉         | 3/32 [00:01<00:08,  3.48it/s][A
+Refilling buffer:  16%|█▌        | 5/32 [00:01<00:04,  5.93it/s][A
+Refilling buffer:  22%|██▏       | 7/32 [00:01<00:03,  8.27it/s][A
+Refilling buffer:  28%|██▊       | 9/32 [00:01<00:02, 10.36it/s][A
+Refilling buffer:  34%|███▍      | 11/32 [00:01<00:01, 12.13it/s][A
+Refilling buffer:  41%|████      | 13/32 [00:01<00:01, 13.57it/s][A
+Refilling buffer:  47%|████▋     | 15/32 [00:01<00:01, 14.70it/s][A
+Refilling buffer:  53%|█████▎    | 17/32 [00:01<00:00, 15.56it/s][A
+Refilling buffer:  59%|█████▉    | 19/32 [00:01<00:00, 16.19it/s][A
+Refilling buffer:  66%|██████▌   | 21/32 [00:02<00:00, 16.67it/s][A
+Refilling buffer:  72%|███████▏  | 23/32 [00:02<00:00, 17.02it/s][A
+Refilling buffer:  78%|███████▊  | 25/32 [00:02<00:00, 17.25it/s][A
+Refilling buffer:  84%|████████▍ | 27/32 [00:02<00:00, 17.42it/s][A
+Refilling buffer:  91%|█████████ | 29/32 [00:02<00:00, 17.54it/s][A
+Refilling buffer:  97%|█████████▋| 31/32 [00:02<00:00, 17.63it/s][A
+                                                                 [A200| mse_loss: 374.13745 | l1_loss: 161.61778:  33%|███▎      | 409600/1228800 [00:57<01:36, 8449.02it/s]200| mse_loss: 374.13745 | l1_loss: 161.61778:  67%|██████▋   | 819200/1228800 [00:57<00:25, 16057.64it/s]
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A
+Refilling buffer:   3%|▎         | 1/32 [00:00<00:29,  1.06it/s][A
+Refilling buffer:   9%|▉         | 3/32 [00:01<00:08,  3.48it/s][A
+Refilling buffer:  16%|█▌        | 5/32 [00:01<00:04,  5.94it/s][A
+Refilling buffer:  22%|██▏       | 7/32 [00:01<00:03,  8.27it/s][A
+Refilling buffer:  28%|██▊       | 9/32 [00:01<00:02, 10.36it/s][A
+Refilling buffer:  34%|███▍      | 11/32 [00:01<00:01, 12.14it/s][A
+Refilling buffer:  41%|████      | 13/32 [00:01<00:01, 13.57it/s][A
+Refilling buffer:  47%|████▋     | 15/32 [00:01<00:01, 14.69it/s][A
+Refilling buffer:  53%|█████▎    | 17/32 [00:01<00:00, 15.55it/s][A
+Refilling buffer:  59%|█████▉    | 19/32 [00:01<00:00, 16.18it/s][A
+Refilling buffer:  66%|██████▌   | 21/32 [00:02<00:00, 16.61it/s][A
+Refilling buffer:  72%|███████▏  | 23/32 [00:02<00:00, 16.95it/s][A
+Refilling buffer:  78%|███████▊  | 25/32 [00:02<00:00, 17.20it/s][A
+Refilling buffer:  84%|████████▍ | 27/32 [00:02<00:00, 17.37it/s][A
+Refilling buffer:  91%|█████████ | 29/32 [00:02<00:00, 17.49it/s][A
+Refilling buffer:  97%|█████████▋| 31/32 [00:02<00:00, 17.58it/s][A
+                                                                 [A
+Refilling buffer:   0%|          | 0/32 [00:00<?, ?it/s][A
+Refilling buffer:   3%|▎         | 1/32 [00:00<00:29,  1.06it/s][A
+Refilling buffer:   9%|▉         | 3/32 [00:01<00:08,  3.49it/s][A
+Refilling buffer:  16%|█▌        | 5/32 [00:01<00:04,  5.95it/s][A
+Refilling buffer:  22%|██▏       | 7/32 [00:01<00:03,  8.29it/s][A
+Refilling buffer:  28%|██▊       | 9/32 [00:01<00:02, 10.38it/s][A
+Refilling buffer:  34%|███▍      | 11/32 [00:01<00:01, 12.15it/s][A
+Refilling buffer:  41%|████      | 13/32 [00:01<00:01, 13.58it/s][A
+Refilling buffer:  47%|████▋     | 15/32 [00:01<00:01, 14.71it/s][A
+Refilling buffer:  53%|█████▎    | 17/32 [00:01<00:00, 15.56it/s][A
+Refilling buffer:  59%|█████▉    | 19/32 [00:01<00:00, 16.20it/s][A
+Refilling buffer:  66%|██████▌   | 21/32 [00:02<00:00, 16.67it/s][A
+Refilling buffer:  72%|███████▏  | 23/32 [00:02<00:00, 17.00it/s][A
+Refilling buffer:  78%|███████▊  | 25/32 [00:02<00:00, 17.25it/s][A
+Refilling buffer:  84%|████████▍ | 27/32 [00:02<00:00, 17.42it/s][A
+Refilling buffer:  91%|█████████ | 29/32 [00:02<00:00, 17.55it/s][A
+Refilling buffer:  97%|█████████▋| 31/32 [00:02<00:00, 17.63it/s][A
+                                                                 [A200| mse_loss: 374.13745 | l1_loss: 161.61778:  67%|██████▋   | 819200/1228800 [01:08<00:25, 16057.64it/s]300| mse_loss: 344.84100 | l1_loss: 166.99155:  67%|██████▋   | 819200/1228800 [01:09<00:25, 16057.64it/s]300| mse_loss: 344.84100 | l1_loss: 166.99155: 100%|██████████| 1228800/1228800 [01:09<00:00, 21553.81it/s]300| mse_loss: 344.84100 | l1_loss: 166.99155: 100%|██████████| 1228800/1228800 [01:09<00:00, 17764.66it/s]

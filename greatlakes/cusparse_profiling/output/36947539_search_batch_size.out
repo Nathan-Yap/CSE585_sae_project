@@ -1,0 +1,31 @@
+Using device: cuda
+Loaded SAE
+StandardSAE(
+  (activation_fn): ReLU()
+  (hook_sae_input): HookPoint()
+  (hook_sae_acts_pre): HookPoint()
+  (hook_sae_acts_post): HookPoint()
+  (hook_sae_output): HookPoint()
+  (hook_sae_recons): HookPoint()
+  (hook_sae_error): HookPoint()
+)
+Loaded residual stream: torch.Size([8, 128, 768])
+
+NEW ITERATION: using batch of shape: 
+torch.Size([8, 128, 768])
+
+Full Encoder time: 56216.450 ms
+
+Average active features/token: 67.00
+Total number of features 25165824
+Sparsity: 99.7274%
+
+Normal decode timing:
+Decode time 3.4089279174804688 ms
+Normal time (dense): 3530.432 ms
+
+Time to convert to COO 0.1324031176045537
+
+Sparse COO features: nnz = 68606 (0.2726% nonzero)
+
+done!

@@ -1,0 +1,10 @@
+Using device: cuda
+Loaded SAE
+Loaded residual stream: torch.Size([32, 128, 768])
+Encoder time: 58.670 ms
+Average active features/token: 68.31
+Total number of features 100663296
+Sparsity: 99.7220%
+Time to convert to COO 3.310782720334828
+Sparse COO features: nnz = 279818 (0.2780% nonzero)
+done!

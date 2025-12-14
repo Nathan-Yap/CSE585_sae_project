@@ -1,0 +1,15 @@
+Using device: cuda
+Loaded SAE
+StandardSAE(
+  (activation_fn): ReLU()
+  (hook_sae_input): HookPoint()
+  (hook_sae_acts_pre): HookPoint()
+  (hook_sae_acts_post): HookPoint()
+  (hook_sae_output): HookPoint()
+  (hook_sae_recons): HookPoint()
+  (hook_sae_error): HookPoint()
+)
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 1006624
+Time to Generate COO 0.3368078786879778
+done!

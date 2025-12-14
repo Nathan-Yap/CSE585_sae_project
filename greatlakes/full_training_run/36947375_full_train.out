@@ -1,0 +1,3 @@
+Using device: cuda
+Loaded pretrained model tiny-stories-1L-21M into HookedTransformer
+done!

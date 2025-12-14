@@ -1,0 +1,112 @@
+Using device: cuda
+Loaded SAE
+StandardSAE(
+  (activation_fn): ReLU()
+  (hook_sae_input): HookPoint()
+  (hook_sae_acts_pre): HookPoint()
+  (hook_sae_acts_post): HookPoint()
+  (hook_sae_output): HookPoint()
+  (hook_sae_recons): HookPoint()
+  (hook_sae_error): HookPoint()
+)
+Loaded residual stream: torch.Size([2056, 128, 768])
+
+NEW ITERATION: using batch of shape: 
+torch.Size([16, 128, 768])
+
+Full Encoder time: 55164.097 ms
+
+Average active features/token: 67.10
+Total number of features 50331648
+Sparsity: 99.7270%
+
+Normal decode timing:
+Decode time 6.347519874572754 ms
+Normal time (dense): 6465.280 ms
+
+Time to convert to COO 0.019351904280483723
+
+Sparse COO features: nnz = 137418 (0.2730% nonzero)
+
+Decode time 131.84515380859375 ms
+Decoder time (cuSPARSE): 131989.502 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([32, 128, 768])
+
+Full Encoder time: 14494.720 ms
+
+Average active features/token: 68.31
+Total number of features 100663296
+Sparsity: 99.7220%
+
+Normal decode timing:
+Decode time 12.358176231384277 ms
+Normal time (dense): 12451.328 ms
+
+Time to convert to COO 0.0006310129538178444
+
+Sparse COO features: nnz = 279818 (0.2780% nonzero)
+
+Decode time 18.440223693847656 ms
+Decoder time (cuSPARSE): 18519.009 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([64, 128, 768])
+
+Full Encoder time: 28559.393 ms
+
+Average active features/token: 69.64
+Total number of features 201326592
+Sparsity: 99.7167%
+
+Normal decode timing:
+Decode time 24.562559127807617 ms
+Normal time (dense): 24654.400 ms
+
+Time to convert to COO 0.0010588979348540306
+
+Sparse COO features: nnz = 570454 (0.2833% nonzero)
+
+Decode time 36.578304290771484 ms
+Decoder time (cuSPARSE): 36657.150 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([128, 128, 768])
+
+Full Encoder time: 56912.865 ms
+
+Average active features/token: 69.81
+Total number of features 402653184
+Sparsity: 99.7159%
+
+Normal decode timing:
+Decode time 50.86531066894531 ms
+Normal time (dense): 50966.846 ms
+
+Time to convert to COO 0.001998406834900379
+
+Sparse COO features: nnz = 1143827 (0.2841% nonzero)
+
+Decode time 76.26441955566406 ms
+Decoder time (cuSPARSE): 76342.239 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([256, 128, 768])
+
+Full Encoder time: 113735.680 ms
+
+Average active features/token: 69.11
+Total number of features 805306368
+Sparsity: 99.7188%
+
+Normal decode timing:
+Decode time 101.69264221191406 ms
+Normal time (dense): 101791.618 ms
+
+Time to convert to COO 0.003822470083832741
+
+Sparse COO features: nnz = 2264462 (0.2812% nonzero)
+
+Decode time 153.15145874023438 ms
+Decoder time (cuSPARSE): 153233.414 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([512, 128, 768])
+
+done!

@@ -1,0 +1,32 @@
+Using device: cuda
+Loaded SAE
+Using device: cuda
+Loaded SAE
+StandardSAE(
+  (activation_fn): ReLU()
+  (hook_sae_input): HookPoint()
+  (hook_sae_acts_pre): HookPoint()
+  (hook_sae_acts_post): HookPoint()
+  (hook_sae_output): HookPoint()
+  (hook_sae_recons): HookPoint()
+  (hook_sae_error): HookPoint()
+)
+
+NEW ITERATION: using sparsity of shape: 0.85
+
+
+Average active features/token: 1711.86
+Total number of features 805306368
+Sparsity: 93.0344%
+
+Normal decode timing:
+Decode time 123.92963409423828 ms
+Normal time (dense): 124094.337 ms
+
+Time to convert to COO 0.027823878452181816
+
+Sparse COO features: nnz = 112176144 (13.9296% nonzero)
+
+Decode time 2055.235595703125 ms
+Decoder time (cuSPARSE): 2055349.365 ms
+done!

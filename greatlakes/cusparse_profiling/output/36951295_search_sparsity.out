@@ -1,0 +1,377 @@
+Using device: cuda
+Loaded SAE
+Using device: cuda
+Loaded SAE
+StandardSAE(
+  (activation_fn): ReLU()
+  (hook_sae_input): HookPoint()
+  (hook_sae_acts_pre): HookPoint()
+  (hook_sae_acts_post): HookPoint()
+  (hook_sae_output): HookPoint()
+  (hook_sae_recons): HookPoint()
+  (hook_sae_error): HookPoint()
+)
+
+NEW ITERATION: using sparsity of shape: 0.99
+
+
+Average active features/token: 122.40
+Total number of features 201326592
+Sparsity: 99.5020%
+
+Normal decode timing:
+Decode time 46.7782096862793 ms
+Normal time (dense): 46989.346 ms
+
+Time to convert to COO 0.032160259783267975
+
+Sparse COO features: nnz = 2003040 (0.9949% nonzero)
+
+Decode time 115.89222717285156 ms
+Decoder time (cuSPARSE): 116003.838 ms
+
+NEW ITERATION: using sparsity of shape: 0.9904999999999999
+
+
+Average active features/token: 116.14
+Total number of features 201326592
+Sparsity: 99.5274%
+
+Normal decode timing:
+Decode time 24.655040740966797 ms
+Normal time (dense): 24753.183 ms
+
+Time to convert to COO 0.0010892823338508606
+
+Sparse COO features: nnz = 1903696 (0.9456% nonzero)
+
+Decode time 52.115455627441406 ms
+Decoder time (cuSPARSE): 52193.279 ms
+
+NEW ITERATION: using sparsity of shape: 0.991
+
+
+Average active features/token: 110.13
+Total number of features 201326592
+Sparsity: 99.5519%
+
+Normal decode timing:
+Decode time 24.61084747314453 ms
+Normal time (dense): 24703.615 ms
+
+Time to convert to COO 0.0010871486738324165
+
+Sparse COO features: nnz = 1803721 (0.8959% nonzero)
+
+Decode time 50.196449279785156 ms
+Decoder time (cuSPARSE): 50272.224 ms
+
+NEW ITERATION: using sparsity of shape: 0.9914999999999999
+
+
+Average active features/token: 103.90
+Total number of features 201326592
+Sparsity: 99.5772%
+
+Normal decode timing:
+Decode time 24.610111236572266 ms
+Normal time (dense): 24699.425 ms
+
+Time to convert to COO 0.0010670721530914307
+
+Sparse COO features: nnz = 1704015 (0.8464% nonzero)
+
+Decode time 49.21241760253906 ms
+Decoder time (cuSPARSE): 49287.167 ms
+
+NEW ITERATION: using sparsity of shape: 0.992
+
+
+Average active features/token: 97.83
+Total number of features 201326592
+Sparsity: 99.6019%
+
+Normal decode timing:
+Decode time 24.619935989379883 ms
+Normal time (dense): 24706.367 ms
+
+Time to convert to COO 0.0010589389130473137
+
+Sparse COO features: nnz = 1604307 (0.7969% nonzero)
+
+Decode time 47.9508171081543 ms
+Decoder time (cuSPARSE): 48026.592 ms
+
+NEW ITERATION: using sparsity of shape: 0.9924999999999999
+
+
+Average active features/token: 91.92
+Total number of features 201326592
+Sparsity: 99.6260%
+
+Normal decode timing:
+Decode time 24.603904724121094 ms
+Normal time (dense): 24691.105 ms
+
+Time to convert to COO 0.0010526692494750023
+
+Sparse COO features: nnz = 1504182 (0.7471% nonzero)
+
+Decode time 47.084510803222656 ms
+Decoder time (cuSPARSE): 47166.466 ms
+
+NEW ITERATION: using sparsity of shape: 0.993
+
+
+Average active features/token: 85.99
+Total number of features 201326592
+Sparsity: 99.6501%
+
+Normal decode timing:
+Decode time 24.614303588867188 ms
+Normal time (dense): 24703.936 ms
+
+Time to convert to COO 0.0010855579748749733
+
+Sparse COO features: nnz = 1404412 (0.6976% nonzero)
+
+Decode time 48.22118377685547 ms
+Decoder time (cuSPARSE): 48313.343 ms
+
+NEW ITERATION: using sparsity of shape: 0.9934999999999999
+
+
+Average active features/token: 79.67
+Total number of features 201326592
+Sparsity: 99.6758%
+
+Normal decode timing:
+Decode time 24.62726402282715 ms
+Normal time (dense): 24718.719 ms
+
+Time to convert to COO 0.0011163614690303802
+
+Sparse COO features: nnz = 1304334 (0.6479% nonzero)
+
+Decode time 45.10515213012695 ms
+Decoder time (cuSPARSE): 45179.905 ms
+
+NEW ITERATION: using sparsity of shape: 0.994
+
+
+Average active features/token: 73.38
+Total number of features 201326592
+Sparsity: 99.7014%
+
+Normal decode timing:
+Decode time 24.588512420654297 ms
+Normal time (dense): 24678.400 ms
+
+Time to convert to COO 0.0010973569005727768
+
+Sparse COO features: nnz = 1204451 (0.5983% nonzero)
+
+Decode time 43.62543869018555 ms
+Decoder time (cuSPARSE): 43706.367 ms
+
+NEW ITERATION: using sparsity of shape: 0.9944999999999999
+
+
+Average active features/token: 67.39
+Total number of features 201326592
+Sparsity: 99.7258%
+
+Normal decode timing:
+Decode time 24.62112045288086 ms
+Normal time (dense): 24708.927 ms
+
+Time to convert to COO 0.0010874094441533089
+
+Sparse COO features: nnz = 1104249 (0.5485% nonzero)
+
+Decode time 42.789886474609375 ms
+Decoder time (cuSPARSE): 42863.647 ms
+
+NEW ITERATION: using sparsity of shape: 0.995
+
+
+Average active features/token: 61.27
+Total number of features 201326592
+Sparsity: 99.7507%
+
+Normal decode timing:
+Decode time 24.611743927001953 ms
+Normal time (dense): 24702.881 ms
+
+Time to convert to COO 0.0010543037205934525
+
+Sparse COO features: nnz = 1004090 (0.4987% nonzero)
+
+Decode time 41.006080627441406 ms
+Decoder time (cuSPARSE): 41079.807 ms
+
+NEW ITERATION: using sparsity of shape: 0.9954999999999999
+
+
+Average active features/token: 55.14
+Total number of features 201326592
+Sparsity: 99.7756%
+
+Normal decode timing:
+Decode time 24.614463806152344 ms
+Normal time (dense): 24704.479 ms
+
+Time to convert to COO 0.0010872455313801765
+
+Sparse COO features: nnz = 903876 (0.4490% nonzero)
+
+Decode time 40.47564697265625 ms
+Decoder time (cuSPARSE): 40548.386 ms
+
+NEW ITERATION: using sparsity of shape: 0.996
+
+
+Average active features/token: 49.03
+Total number of features 201326592
+Sparsity: 99.8005%
+
+Normal decode timing:
+Decode time 24.619871139526367 ms
+Normal time (dense): 24716.160 ms
+
+Time to convert to COO 0.0010962560772895813
+
+Sparse COO features: nnz = 803625 (0.3992% nonzero)
+
+Decode time 39.046112060546875 ms
+Decoder time (cuSPARSE): 39120.930 ms
+
+NEW ITERATION: using sparsity of shape: 0.9964999999999999
+
+
+Average active features/token: 42.84
+Total number of features 201326592
+Sparsity: 99.8257%
+
+Normal decode timing:
+Decode time 24.60982322692871 ms
+Normal time (dense): 24703.840 ms
+
+Time to convert to COO 0.0010962914675474167
+
+Sparse COO features: nnz = 703381 (0.3494% nonzero)
+
+Decode time 37.5807991027832 ms
+Decoder time (cuSPARSE): 37654.530 ms
+
+NEW ITERATION: using sparsity of shape: 0.997
+
+
+Average active features/token: 36.80
+Total number of features 201326592
+Sparsity: 99.8503%
+
+Normal decode timing:
+Decode time 24.614431381225586 ms
+Normal time (dense): 24705.503 ms
+
+Time to convert to COO 0.0010907454416155815
+
+Sparse COO features: nnz = 603056 (0.2995% nonzero)
+
+Decode time 36.401153564453125 ms
+Decoder time (cuSPARSE): 36474.880 ms
+
+NEW ITERATION: using sparsity of shape: 0.9974999999999999
+
+
+Average active features/token: 30.69
+Total number of features 201326592
+Sparsity: 99.8751%
+
+Normal decode timing:
+Decode time 24.60051155090332 ms
+Normal time (dense): 24687.361 ms
+
+Time to convert to COO 0.001090535894036293
+
+Sparse COO features: nnz = 502612 (0.2497% nonzero)
+
+Decode time 34.45654296875 ms
+Decoder time (cuSPARSE): 34531.296 ms
+
+NEW ITERATION: using sparsity of shape: 0.998
+
+
+Average active features/token: 24.56
+Total number of features 201326592
+Sparsity: 99.9001%
+
+Normal decode timing:
+Decode time 24.596031188964844 ms
+Normal time (dense): 24685.856 ms
+
+Time to convert to COO 0.0010914774611592293
+
+Sparse COO features: nnz = 402252 (0.1998% nonzero)
+
+Decode time 33.340415954589844 ms
+Decoder time (cuSPARSE): 33412.064 ms
+
+NEW ITERATION: using sparsity of shape: 0.9984999999999999
+
+
+Average active features/token: 18.39
+Total number of features 201326592
+Sparsity: 99.9252%
+
+Normal decode timing:
+Decode time 24.577024459838867 ms
+Normal time (dense): 24664.127 ms
+
+Time to convert to COO 0.0010878713801503181
+
+Sparse COO features: nnz = 301719 (0.1499% nonzero)
+
+Decode time 31.83513641357422 ms
+Decoder time (cuSPARSE): 31907.904 ms
+
+NEW ITERATION: using sparsity of shape: 0.999
+
+
+Average active features/token: 12.31
+Total number of features 201326592
+Sparsity: 99.9499%
+
+Normal decode timing:
+Decode time 24.598560333251953 ms
+Normal time (dense): 24684.288 ms
+
+Time to convert to COO 0.001091531477868557
+
+Sparse COO features: nnz = 201173 (0.0999% nonzero)
+
+Decode time 30.064640045166016 ms
+Decoder time (cuSPARSE): 30138.369 ms
+
+NEW ITERATION: using sparsity of shape: 0.9994999999999999
+
+
+Average active features/token: 6.15
+Total number of features 201326592
+Sparsity: 99.9750%
+
+Normal decode timing:
+Decode time 24.603424072265625 ms
+Normal time (dense): 24694.336 ms
+
+Time to convert to COO 0.001056065782904625
+
+Sparse COO features: nnz = 100576 (0.0500% nonzero)
+
+Decode time 26.99977684020996 ms
+Decoder time (cuSPARSE): 27072.544 ms
+SPARSITIES:
+[0.9950195948282877, 0.995274176200231, 0.9955187141895294, 0.9957723220189413, 0.9960193733374277, 0.9962598582108816, 0.9965012123187383, 0.9967581729094187, 0.9970143536726633, 0.9972580671310425, 0.9975069065888723, 0.9977563619613647, 0.9980050524075826, 0.9982567131519318, 0.9985025723775228, 0.9987513720989227, 0.9990005840857824, 0.9992518375317255, 0.9994989633560181, 0.9997499386469523]
+CACHED TIMINGS:
+done!

@@ -1,0 +1,7 @@
+Using device: cuda
+Loaded SAE
+Loaded residual stream: torch.Size([32, 128, 768])
+Encoder time: 58.112 ms
+Average active features/token: 68.31
+Sparsity: 99.7220%
+done!

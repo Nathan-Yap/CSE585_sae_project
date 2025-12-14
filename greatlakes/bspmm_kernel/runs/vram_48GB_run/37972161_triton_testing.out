@@ -1,0 +1,87 @@
+Using device: cuda
+Loaded SAE
+Loaded residual stream: torch.Size([2056, 128, 768])
+
+NEW ITERATION: using batch of shape: 
+torch.Size([1, 128, 768])
+		normal_decode decode tim:  8.774592399597168 ms
+	Normal BMM (dense): 10466.528 ms
+		naive_cusparse_decode decode tim:  571.4447021484375 ms
+	Naive cusparse decoder time: 572784.058 ms
+		custom_triton_decode decode tim:  13403.072265625 ms
+	Custom triton kernel time: 13404810.547 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([4, 128, 768])
+		normal_decode decode tim:  0.9617279767990112 ms
+	Normal BMM (dense): 2050.112 ms
+		naive_cusparse_decode decode tim:  5.48908805847168 ms
+	Naive cusparse decoder time: 6433.664 ms
+		custom_triton_decode decode tim:  6443.708984375 ms
+	Custom triton kernel time: 6444589.355 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([8, 128, 768])
+		normal_decode decode tim:  1.5854400396347046 ms
+	Normal BMM (dense): 2616.480 ms
+		naive_cusparse_decode decode tim:  3.9228479862213135 ms
+	Naive cusparse decoder time: 5050.112 ms
+		custom_triton_decode decode tim:  4.645247936248779 ms
+	Custom triton kernel time: 5411.200 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([16, 128, 768])
+		normal_decode decode tim:  3.1199679374694824 ms
+	Normal BMM (dense): 3933.440 ms
+		naive_cusparse_decode decode tim:  7.196767807006836 ms
+	Naive cusparse decoder time: 7956.576 ms
+		custom_triton_decode decode tim:  10.158047676086426 ms
+	Custom triton kernel time: 11181.312 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([32, 128, 768])
+		normal_decode decode tim:  6.719103813171387 ms
+	Normal BMM (dense): 7457.152 ms
+		naive_cusparse_decode decode tim:  14.217984199523926 ms
+	Naive cusparse decoder time: 14936.256 ms
+		custom_triton_decode decode tim:  21.488351821899414 ms
+	Custom triton kernel time: 22434.591 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([64, 128, 768])
+		normal_decode decode tim:  12.63913631439209 ms
+	Normal BMM (dense): 13339.488 ms
+		naive_cusparse_decode decode tim:  28.397375106811523 ms
+	Naive cusparse decoder time: 29788.128 ms
+		custom_triton_decode decode tim:  46.798336029052734 ms
+	Custom triton kernel time: 47575.775 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([128, 128, 768])
+		normal_decode decode tim:  27.02992057800293 ms
+	Normal BMM (dense): 27811.071 ms
+		naive_cusparse_decode decode tim:  89.19932556152344 ms
+	Naive cusparse decoder time: 90050.240 ms
+		custom_triton_decode decode tim:  4824.20361328125 ms
+	Custom triton kernel time: 4825401.855 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([256, 128, 768])
+		normal_decode decode tim:  50.82585525512695 ms
+	Normal BMM (dense): 51730.145 ms
+		naive_cusparse_decode decode tim:  122.85609436035156 ms
+	Naive cusparse decoder time: 123821.152 ms
+		custom_triton_decode decode tim:  201.85337829589844 ms
+	Custom triton kernel time: 202944.199 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([512, 128, 768])
+		normal_decode decode tim:  98.33564758300781 ms
+	Normal BMM (dense): 99185.860 ms
+		naive_cusparse_decode decode tim:  279.8060607910156 ms
+	Naive cusparse decoder time: 281294.891 ms
+		custom_triton_decode decode tim:  399.6551818847656 ms
+	Custom triton kernel time: 400787.659 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([1028, 128, 768])
+		normal_decode decode tim:  201.82550048828125 ms
+	Normal BMM (dense): 202916.672 ms
+		naive_cusparse_decode decode tim:  686.25341796875 ms
+	Naive cusparse decoder time: 687471.558 ms
+		custom_triton_decode decode tim:  786.0276489257812 ms
+	Custom triton kernel time: 788037.476 ms
+NEW ITERATION: using batch of shape: 
+torch.Size([2056, 128, 768])
+done!

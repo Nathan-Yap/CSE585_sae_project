@@ -1,0 +1,29 @@
+#!/bin/bash
+# “#SBATCH” directives that convey submission options:
+##### The name of the job
+#SBATCH --job-name=triton_kernel
+##### When to send e-mail: pick from NONE, BEGIN, END, FAIL, REQUEUE, ALL
+#SBATCH --mail-type=NONE
+##### Resources for your job
+#SBATCH --partition=spgpu
+#SBATCH --gpus=1
+##### Maximum amount of time the job will be allowed to run
+#SBATCH --mem=48G
+#SBATCH --time=20:00
+##### The resource account; who pays
+#SBATCH --account=cse585f25_class
+##### Standard output and error files
+#SBATCH --output=runs/%j_triton_testing.out
+#SBATCH --error=sae_train_error.err
+
+#####################################################################
+# The application(s) to execute along with its input arguments and options:
+
+module load python/3.12.1
+
+source /scratch/cse585f25_class_root/cse585f25_class/nyap/env/bin/activate
+
+python triton_kernel_encoder_decoder_search_params.py
+
+echo "done!"
+

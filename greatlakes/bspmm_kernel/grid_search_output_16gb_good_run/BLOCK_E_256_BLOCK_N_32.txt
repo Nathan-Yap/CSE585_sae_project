@@ -1,0 +1,33 @@
+Batch Shape: torch.Size([1, 128, 768])
+	Normal BMM (dense): 3245.024 ms
+	Naive cusparse decoder time: 206053.375 ms
+	Custom triton kernel time: 35293546.875 ms
+Batch Shape: torch.Size([4, 128, 768])
+	Normal BMM (dense): 2845.728 ms
+	Naive cusparse decoder time: 8219.648 ms
+	Custom triton kernel time: 30831775.391 ms
+Batch Shape: torch.Size([8, 128, 768])
+	Normal BMM (dense): 4336.640 ms
+	Naive cusparse decoder time: 6398.976 ms
+	Custom triton kernel time: 7499.776 ms
+Batch Shape: torch.Size([16, 128, 768])
+	Normal BMM (dense): 6921.216 ms
+	Naive cusparse decoder time: 10021.952 ms
+	Custom triton kernel time: 14592.000 ms
+Batch Shape: torch.Size([32, 128, 768])
+	Normal BMM (dense): 13117.408 ms
+	Naive cusparse decoder time: 19012.608 ms
+	Custom triton kernel time: 54047.775 ms
+Batch Shape: torch.Size([64, 128, 768])
+	Normal BMM (dense): 23484.512 ms
+	Naive cusparse decoder time: 35969.952 ms
+	Custom triton kernel time: 119951.363 ms
+Batch Shape: torch.Size([128, 128, 768])
+	Normal BMM (dense): 48283.649 ms
+	Naive cusparse decoder time: 74553.345 ms
+	Custom triton kernel time: 32075412.109 ms
+Batch Shape: torch.Size([256, 128, 768])
+	Normal BMM (dense): 94816.254 ms
+	Naive cusparse decoder time: 153290.756 ms
+	Custom triton kernel time: 543319.031 ms
+Batch Shape: torch.Size([512, 128, 768])

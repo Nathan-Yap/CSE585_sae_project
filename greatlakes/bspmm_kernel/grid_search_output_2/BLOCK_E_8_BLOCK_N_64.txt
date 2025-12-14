@@ -1,0 +1,1 @@
+Batch Shape: torch.Size([1, 128, 768])

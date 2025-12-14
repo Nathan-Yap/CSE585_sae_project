@@ -1,0 +1,28 @@
+Using Triton kernel params: BLOCK_E=8, BLOCK_N=32
+Using device: cpu
+Loaded SAE
+Loaded residual stream: torch.Size([2056, 128, 768])
+
+NEW ITERATION: using batch of shape: 
+torch.Size([1, 128, 768])
+Using Triton kernel params: BLOCK_E=16, BLOCK_N=32
+Using device: cpu
+Loaded SAE
+Loaded residual stream: torch.Size([2056, 128, 768])
+
+NEW ITERATION: using batch of shape: 
+torch.Size([1, 128, 768])
+Using Triton kernel params: BLOCK_E=32, BLOCK_N=32
+Using device: cpu
+Loaded SAE
+Loaded residual stream: torch.Size([2056, 128, 768])
+
+NEW ITERATION: using batch of shape: 
+torch.Size([1, 128, 768])
+Using Triton kernel params: BLOCK_E=64, BLOCK_N=32
+Using device: cpu
+Loaded SAE
+Loaded residual stream: torch.Size([2056, 128, 768])
+
+NEW ITERATION: using batch of shape: 
+torch.Size([1, 128, 768])

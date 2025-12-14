@@ -1,0 +1,92 @@
+Using device: cuda
+Loaded SAE
+StandardSAE(
+  (activation_fn): ReLU()
+  (hook_sae_input): HookPoint()
+  (hook_sae_acts_pre): HookPoint()
+  (hook_sae_acts_post): HookPoint()
+  (hook_sae_output): HookPoint()
+  (hook_sae_recons): HookPoint()
+  (hook_sae_error): HookPoint()
+)
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 10066304
+Sparsity: 0.09999974568684895
+Decoder time (cuSPARSE): 10222.394 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 9563008
+Sparsity: 0.0949999491373698
+Decoder time (cuSPARSE): 119.365 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 9059680
+Sparsity: 0.08999983469645183
+Decoder time (cuSPARSE): 113.290 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 8556352
+Sparsity: 0.08499972025553386
+Decoder time (cuSPARSE): 108.244 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 8053056
+Sparsity: 0.07999992370605469
+Decoder time (cuSPARSE): 104.178 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 7549728
+Sparsity: 0.07499980926513672
+Decoder time (cuSPARSE): 98.855 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 7046400
+Sparsity: 0.06999969482421875
+Decoder time (cuSPARSE): 91.425 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 6543104
+Sparsity: 0.06499989827473958
+Decoder time (cuSPARSE): 86.232 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 6039776
+Sparsity: 0.05999978383382162
+Decoder time (cuSPARSE): 80.841 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 5536480
+Sparsity: 0.054999987284342446
+Decoder time (cuSPARSE): 75.431 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 5033152
+Sparsity: 0.04999987284342448
+Decoder time (cuSPARSE): 69.278 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 4529824
+Sparsity: 0.04499975840250651
+Decoder time (cuSPARSE): 63.742 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 4026528
+Sparsity: 0.039999961853027344
+Decoder time (cuSPARSE): 58.108 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 3523200
+Sparsity: 0.034999847412109375
+Decoder time (cuSPARSE): 52.811 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 3019872
+Sparsity: 0.029999732971191406
+Decoder time (cuSPARSE): 47.630 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 2516576
+Sparsity: 0.02499993642171224
+Decoder time (cuSPARSE): 42.243 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 2013248
+Sparsity: 0.01999982198079427
+Decoder time (cuSPARSE): 37.078 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 1509920
+Sparsity: 0.014999707539876303
+Decoder time (cuSPARSE): 32.203 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 1006624
+Sparsity: 0.009999910990397135
+Decoder time (cuSPARSE): 26.358 ms
+Fake Shape: torch.Size([32, 128, 24576])
+Fake NNZ: 503296
+Sparsity: 0.004999796549479167
+Decoder time (cuSPARSE): 20.702 ms
+done!
