@@ -6,7 +6,7 @@ This is a 585 Project directory which includes scripts/files to be run on Greatl
 ### greatlakes/residual_stream
 Code for prepping a small set of 1000 random GPT2 activations to use in testing SAE training.
 ### greatlakes/basic_encoder_decoder_timing
-Contains initial testing with using sparse matrix formats and timing the encoder/decoder time for SAEs.
+Contains initial testing with using sparse matrix formats and timing the encoder/decoder time for SAEs. In addition to measuring the average sparsity of the latent space for the activations we looked at.
 ### greatlakes/cusparse_profiling
 More extensive testing with varying sparsity and batch size for the sparse and dense decoder types.
 ### greatlakes/bspmm_kernel
